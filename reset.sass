@@ -1,0 +1,141 @@
+
+*, *:before
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+
+.clearfix:after
+	visibility: hidden
+	display: block
+	font-size: 0
+	content: " "
+	clear: both
+	height: 0
+     
+.clearfix
+	display: inline-block
+	
+* html .clearfix
+	height: 1%
+	
+.clearfix 
+	display: block
+
+@charset 'utf-8'
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+	margin: 0
+	padding: 0
+	border: 0
+	font-weight: inherit
+	font-style: inherit
+	font-size: 100%
+	vertical-align: baseline
+
+body 
+	line-height: 1
+	color: black
+
+ol, ul 
+	list-style: none
+
+table
+	border-collapse: separate
+	border-spacing: 0
+
+caption, th, td 
+	text-align: left
+	font-weight: normal
+
+blockquote:before, blockquote:after,
+q:before, q:after
+	content: ""
+
+blockquote, q
+	quotes: "" ""
+
+
+
+command, datalist, source
+	display: none
+
+article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section, summary
+	display: block
+
+figure, menu
+	margin-top: 1em
+	margin-bottom: 1em
+
+dl menu, menu dl, menu menu, menu ol, menu ul
+	margin-top: 0
+	margin-bottom: 0
+
+
+html
+	overflow-y: scroll
+
+
+strong, b 
+	font-weight: bold
+
+
+em, i
+	font-style: italic
+
+
+h1, h2, h3, h4, h5, h6
+	font-weight: normal
+
+.ie7 address
+	font-style: normal
+
+
+.hideme
+	position: absolute
+	left: -999em
+	top: -999em
+
+label, 
+input[type=button],
+input[type=submit], 
+button
+	cursor: pointer
+
+
+q:lang(de)
+	quotes: 'â€ž' 'â€œ' 'â€š' 'â€˜'
+
+
+q:lang(en) 
+	quotes: 'â€œ' 'â€' "â€˜" "â€™"
+
+
+abbr[title] 
+	border-bottom: 1px dotted #888 !important
+	cursor: help
+
+a abbr
+	cursor: pointer !important
+
+.clearfix:after
+	clear: both
+	content: "."
+	display: block
+	height: 0
+	visibility: hidden
+
+
+.clearfix
+	display: block
+
+img 
+	-ms-interpolation-mode: bicubic
